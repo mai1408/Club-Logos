@@ -3,7 +3,7 @@ html, body {
   margin: 0;
   padding: 0;
   
-  color: #776e65;
+  color: #000000;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px; }
 
@@ -55,14 +55,14 @@ h1.title {
 .score-container, .best-container {
   position: relative;
   display: inline-block;
-  background: #bbada0;
+  background: #000000;
   padding: 15px 25px;
   font-size: 25px;
   height: 25px;
   line-height: 47px;
   font-weight: bold;
   border-radius: 3px;
-  color: white;
+  color: yellow;
   margin-top: 8px;
   text-align: center; }
   .score-container:after, .best-container:after {
@@ -74,7 +74,7 @@ h1.title {
     font-size: 13px;
     line-height: 13px;
     text-align: center;
-    color: #eee4da; }
+    color: #ffff00; }
   .score-container .score-addition, .best-container .score-addition {
     position: absolute;
     right: 30px;
@@ -151,7 +151,7 @@ hr {
   -ms-user-select: none;
   -ms-touch-action: none;
   touch-action: none;
-  background: #bbada0;
+  background: #000000;
   border-radius: 6px;
   width: 500px;
   height: 500px;
@@ -222,7 +222,7 @@ hr {
   margin-right: 15px;
   float: left;
   border-radius: 3px;
-  background: rgba(238, 228, 218, 0.35); }
+  background: rgba(255, 255, 0, 1); }
   .grid-cell:last-child {
     margin-right: 0; }
 
@@ -315,7 +315,7 @@ hr {
     z-index: 10;
     font-size: 55px; }
   .tile.tile-2 .tile-inner {
-    background: url('../tile-sets/logos/2-arsenal-logo.png');
+    background: url('../tile-sets/logos/2-arsenal-logo.jpg');
     background-size: 100%;
     color: rgba(255,255,255,0);
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
@@ -326,69 +326,69 @@ hr {
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-8 .tile-inner {
     color: #f9f6f2;
+    background: url('../tile-sets/logos/8-atletico-madrid-logo.jpg');
     background-size: 100%;
-    color: rgba(255,255,255,0);
-    background: url('../tile-sets/logos/8-atletico-madrid-logo.jpg'); }
+    color: rgba(255,255,255,0);     }
   .tile.tile-16 .tile-inner {
     color: #f9f6f2;
+    background: url('../tile-sets/logos/16-chelsea-logo.jpg');
     background-size: 100%;
-    color: rgba(255,255,255,0);
-    background: url('../tile-sets/logos/16-chelsea-logo.jpg'); }
+    color: rgba(255,255,255,0);     }
   .tile.tile-32 .tile-inner {
     color: #f9f6f2;
+    background: url('../tile-sets/logos/32-real-madrid-logo.jpg');
     background-size: 100%;
-    color: rgba(255,255,255,0);
-    background: url('../tile-sets/logos/32-real-madrid-logo.jpg'); }
+    color: rgba(255,255,255,0);     }
   .tile.tile-64 .tile-inner {
     color: #f9f6f2;
+    background: url('../tile-sets/logos/64-bayern-munchen-logo.jpg');
     background-size: 100%;
-    color: rgba(255,255,255,0);
-    background: url('../tile-sets/logos/64-bayern-munchen-logo.jpg'); }
+    color: rgba(255,255,255,0);     }
   .tile.tile-128 .tile-inner {
-    color: #f9f6f2;
-    background-size: 100%;
+    color: #f9f6f2;    
     color: rgba(255,255,255,0);
     background: url('../tile-sets/logos/128-borussia-dortmund-logo.jpg');
+    background-size: 100%;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
     font-size: 0px; }
     @media screen and (max-width: 520px) {
       .tile.tile-128 .tile-inner {
         font-size: 25px; } }
   .tile.tile-256 .tile-inner {
-    color: #f9f6f2;
-    background-size: 100%;
+    color: #f9f6f2;    
     color: rgba(255,255,255,0);
     background: url('../tile-sets/logos/256-paris-saint-germain-logo.jpg');
+    background-size: 100%;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
     font-size: 0px; }
     @media screen and (max-width: 520px) {
       .tile.tile-256 .tile-inner {
         font-size: 25px; } }
   .tile.tile-512 .tile-inner {
-    color: #f9f6f2;
-    background-size: 100%;
+    color: #f9f6f2;    
     color: rgba(255,255,255,0);
     background: url('../tile-sets/logos/512-barcelona-logo.jpg');
+    background-size: 100%;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
     font-size: 0px; }
     @media screen and (max-width: 520px) {
       .tile.tile-512 .tile-inner {
         font-size: 25px; } }
   .tile.tile-1024 .tile-inner {
-    color: #f9f6f2;
-    background-size: 100%;
+    color: #f9f6f2;    
     color: rgba(255,255,255,0);
     background: url('../tile-sets/logos/1024-milan-logo.jpg');
+    background-size: 100%;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
     font-size: 0px; }
     @media screen and (max-width: 520px) {
       .tile.tile-1024 .tile-inner {
         font-size: 15px; } }
   .tile.tile-2048 .tile-inner {
-    color: #f9f6f2;
-    background-size: 100%;
+    color: #f9f6f2;    
     color: rgba(255,255,255,0);
     background: url('../tile-sets/logos/2048-aris-thessaloniki-logo.jpg');
+    background-size: 100%;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 0px; }
     @media screen and (max-width: 520px) {
@@ -512,11 +512,11 @@ hr {
 
 .restart-button {
   display: inline-block;
-  background: #8f7a66;
+  background: #000000;
   border-radius: 3px;
   padding: 0 20px;
   text-decoration: none;
-  color: #f9f6f2;
+  color: #ffff00;
   height: 40px;
   line-height: 42px;
   display: block;
