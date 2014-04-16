@@ -3,13 +3,13 @@ html, body {
   margin: 0;
   padding: 0;
   
-  color: #000000;
+  color: #ffff00;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px; }
 
 body {
   margin: 80px 0;
-  background-image: url('../tile-sets/background-98YEARS-ARIS- imixrono.jpg');
+  background-image: url('../tile-sets/backgrounds/background-aris-wallpaper.jpg');
   background-size: 100%; }
 
 .heading:after {
@@ -64,6 +64,7 @@ h1.title {
   border-radius: 3px;
   color: yellow;
   margin-top: 8px;
+  margin-bottom: 20px;
   text-align: center; }
   .score-container:after, .best-container:after {
     position: absolute;
@@ -103,7 +104,7 @@ p {
   line-height: 1.65; }
 
 a {
-  color: #776e65;
+  color: #ffff00;
   font-weight: bold;
   text-decoration: underline;
   cursor: pointer; }
@@ -113,9 +114,9 @@ strong.important {
 
 hr {
   border: none;
-  border-bottom: 1px solid #d8d4d0;
-  margin-top: 20px;
-  margin-bottom: 30px; }
+  border-bottom: 1px solid #ffff00;
+  margin-top: 10px;
+  margin-bottom: 10px; }
 
 .container {
   width: 500px;
@@ -514,7 +515,7 @@ hr {
   display: inline-block;
   background: #000000;
   border-radius: 3px;
-  padding: 0 20px;
+  padding: 0 20px;  
   text-decoration: none;
   color: #ffff00;
   height: 40px;
@@ -524,7 +525,7 @@ hr {
   float: right; }
 
 .game-explanation {
-  margin-top: 50px; }
+  margin-top: 10px; }
 
 @media screen and (max-width: 520px) {
   html, body {
